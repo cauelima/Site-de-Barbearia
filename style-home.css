@@ -1,0 +1,164 @@
+/*/ Fontes utilizadas na página /*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+
+/*/ Imagem da página inicial/*/
+.banner {
+  width: 100%;
+  height: 30em;
+}
+
+/*/Parte inicial perto da logo/*/
+header {
+  background-color: #CCCCCC;
+  padding: 20px 0;
+}
+  
+/*/ Nome da Barbearia no início da página/*/
+.barbearia {
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  }
+
+/*/ Barra de navegação da página/*/
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+nav a {
+  font-style: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+}
+  nav a:hover {
+    color:#808080;
+  }
+  .caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  }
+
+/*/ Estilo da div da parte "sobre a barbearia"/*/
+.principal {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0px auto;
+  border: 1px solid #000000;
+  border-radius: 10px 10px 10px 10px;
+}
+.principal {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 20px;
+}
+.principal p {margin:20px
+}
+.principal {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+#missao {
+  font-style: italic;
+}
+#missao {
+  font-size: 20px;
+}
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+  border-radius: 50%;
+}
+p {
+  text-align: center;
+  }
+
+/*/ Estilo de todos os títulos da página/*/
+.título-geral {text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  margin: 20px;
+}
+
+/*/Estilos do benefícios/*/
+.beneficios {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+}
+.itens-beneficios{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+  width: 30%;
+  margin-left: 12.5%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+
+}
+.itens:first-child {
+  font-weight:bold;
+}
+.itens:before {
+  content: "★";
+}
+.imagembeneficio {
+width: 40%;
+transform: 400ms;
+border-radius: 3%;
+box-shadow: 10px 10px 20px #000000;
+}
+
+.imagembeneficio:hover {
+opacity: 0.8;
+}
+
+/*/Google maps/*/
+.mapa {
+  width: 940px;
+  margin: 0 auto;
+}
+.mapa p {
+  margin: 0 0 2em;
+}
+
+/*/Vídeo do youtube/*/
+.video {
+  width: 560px;
+  margin: 2em auto;
+}
+
+/*/Rodapé da página/*/
+footer {
+  text-align: center;
+  background: url(bg.jpg) ;
+  padding: 40px 0;
+}
+.copyright {
+  color: aliceblue;
+  font-size: 10px;
+  margin: 20px 0;
+}
+
+body {
+  background: linear-gradient(white, #e0d8d8, #a6a3a3, #474646);
+}
+
+@media screen and (max-width: 480px) 
+{ .caixa, .principal, .beneficios, .itens-beneficios, .mapa-conteudo, .video, width:auto;}
+
+.itens-beneficios, .imagembeneficio {width: 100%;}
+
